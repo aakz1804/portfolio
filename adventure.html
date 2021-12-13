@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Akriti portfolio::adventures</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Portfolio is a website exercise to create a website that gives an insight into the portfolio of Akriti Vashisht. This website details the resume and adventures of Akriti in 2021 along with showcasing some of the other projects she has accomplished using html and css.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap Stylesheet-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+	
+		<img src="images/logo.png" alt="logo portfolio" height="100" width="500">
+	
+	</header>
+	<nav>	
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="adventure.html">Adventures</a> </li>
+				<li><a href="project.html">Projects</a></li>
+			</ul>
+	</nav>
+	<main>
+		<div class="container-fluid">
+			<div class="table">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>My Adventures in 2021</h1><hr>
+					<p>Here is the list of places I visited this year and a photo gallery showcasing them.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>Month</h3>
+				</div>
+				<div class="col-sm-6">
+					<h3>Place</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<p>January</p>
+				</div>
+				<div class="col-sm-6">
+					<p>Upstate, NY</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<p>February</p>
+				</div>
+				<div class="col-sm-6">
+					<p>Maine</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<p>April</p>
+				</div>
+				<div class="col-sm-6">
+					<p>Colorado</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<p>July</p>
+				</div>
+				<div class="col-sm-6">
+					<p>Chippewa National Forest</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<p>September</p>
+				</div>
+				<div class="col-sm-6">
+					<p>Grand Teton National Park</p>
+				</div>
+			</div>	
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="gallery">
+						<div class="preview">
+							<img id="preview" src="images/upstate.jpg" style="display:block;margin:0 auto;" alt="Upstate,NY"  height="450" width="800"/>
+		    				</div>
+
+		    				<div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+		    					<img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/upstate.jpg" alt="Upstate,NY" />
+							<img onclick="document.getElementById('preview').src=document.getElementById('img2').src" id="img2" src="images/maine.jpg" alt="Maine" />
+							<img onclick="document.getElementById('preview').src= document.getElementById('img3').src;" id="img3" src="images/colorado.jpg" alt="Colorado"  />
+							<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/chippewa.jpg" alt="Chippewa National Forest" />
+							<img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/teton.jpg" alt="Grand Teton National Park"  />
+    						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</main>
+	<footer>
+		<div class="row footer1000">
+
+        		<div class="col-sm-6">
+            			<h4>Portfolio</h4>
+           				 <p>Portfolio is a website exercise to create a website that gives an insight into the portfolio of Akriti Vashisht. This website details the resume and adventures of Akriti in 2021 along with showcasing some of the other projects she has accomplished using html and css. </p>
+
+      		  	</div>
+
+
+        		<div class="col-sm-6">
+            			<h4>Connect with Me!</h4>
+            			<a href="https://www.facebook.com/aakz18">
+                		<p><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    Facebook</p>
+            			</a>
+            			<a href="https://www.linkedin.com/in/akriti18/">
+                		<p><i class="fa fa-linkedin" aria-hidden="true"></i>
+                    LinkedIn</p>
+            			</a>
+           	 		<a href="mailto:aakz.1804@gmail.com">
+                		<p><i class="fa fa-envelope" aria-hidden="true"></i>
+                    		Email Me</p>
+           			</a>
+           			
+			</div>
+		</div>
+		    <div class="footer-bottom">
+			<small>&copy; Akriti All rights reserved </small>
+		    </div>
+	</footer>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
