@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Lato:wght@300;700&display=swap');
+
+*{
+	box-sizing:border-box;
+}
+
+body{
+	font-family: sans-serif;
+	display: block;
+}
+main{
+	max-width:1200px;
+	margin:0 auto;
+}
+
+nav ul{
+	list-style-type: none;
+	font-weight:bold;
+	background-color: #e67700;
+	text-align: center;
+	padding: 10px;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding: 20px;
+}
+nav a:link{
+	color:#000033;
+}
+nav a:visited{
+	color:#344873;
+}
+nav a:hover{
+	color:#ffffff;
+}
+nav a:active{
+	color:#000000;
+}
+.home-hero{
+	background-image:url("images/header.jpg");
+	height:450px;
+	background-size: cover;
+	background-position:center;
+	color:black;
+	padding: 20px 20px 20px 30px;
+	font-weight:bold;
+	border:#022837 5px solid;
+}
+blockquote{
+	margin:25px;
+	text-align:center;
+	background-color: #e67700;
+}
+img{
+	display:block;
+	margin:0 auto;
+	border:#022837 5px solid;
+}
+h1{
+	font-family: 'Barrio', cursive;
+	font-size: 4em;
+	text-align: center;
+	font-weight:bold;
+	color: #022837;
+}
+.col-sm-4 h3{
+	text-align:center;
+	font-weight:bold;
+	}
+
+footer{
+	background-color: #e67700;
+	text-align:center;
+	color:white;
+}
+
+footer a:link{
+    color:white;
+}
+
+.icons .fa{
+	font-size: 5em;
+    color: #022837;
+	
+}
+.icons{
+	text-align:center;
+	padding: 40px 0 ;
+    color: #022837;
+    max-width:1200px;
+    margin:0 auto;
+    
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+}
+
+
+

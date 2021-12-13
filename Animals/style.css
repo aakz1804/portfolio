@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+
+*{
+	box-sizing:border-box;
+}
+
+body{
+	font-family: sans-serif;
+	display: block;
+}
+main{
+	max-width:1200px;
+	margin:0 auto;
+}
+
+nav ul{
+	list-style-type: none;
+	font-weight:bold;
+	background-color: #92df9a;
+	text-align: center;
+	padding: 10px;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding: 20px;
+}
+nav a:link{
+	color:red;
+}
+nav a:visited{
+	color:blue;
+}
+nav a:hover{
+	color:#ffffff;
+}
+nav a:active{
+	color:#000000;
+}
+.fa-camera-retro {
+    font-size: 100px;
+    text-align: center;
+    display: block;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: red;
+}
+
+blockquote{
+	margin:20px;
+	padding-left: 20px;
+	text-align:left;
+	background-color: #92df9a;
+}
+img{
+	margin:0 auto;
+}
+h1{
+	font-family: 'Source Sans Pro', cursive;
+	font-size: 4em;
+	text-align: center;
+	font-weight:bold;
+	color: red;
+}
+
+footer{
+	background-color: #92df9a;
+	text-align:left;
+}
+
+footer a:link{
+    color:red;
+}
+.footer1000 {
+    padding: 40px 0;
+    color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.footer-bottom {
+    background-color: black;
+    padding: 10px;
+    color: #92df9a;
+    text-align: center;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+}
+
+
+
